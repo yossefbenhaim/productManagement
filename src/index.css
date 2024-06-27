@@ -1,0 +1,13 @@
+:root {
+	font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+	width: 100vw;
+	height: 100vh;
+	background-color: white;
+  }
+  
+  body {
+	margin: 0;
+	width: 100vw;
+	overflow-x: hidden;
+  }
+  
