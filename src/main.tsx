@@ -4,7 +4,7 @@ import { Provider } from 'react-redux';
 
 import ReactDOM from 'react-dom/client'
 import App from './components/app'
-import './index.css'
+import '../styles.css'; // Import your styles
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
 	<Provider store={store}>

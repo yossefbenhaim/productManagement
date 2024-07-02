@@ -1,10 +1,11 @@
-import { useDispatch } from "react-redux";
+import Header from "components/header/haeder";
+import NavigationProducts from "components/producesList/navigationProducts/navigationProducts";
+import ProductsViewer from "components/productsViewer/productsViewer";
 import { useEffect } from "react";
+import { useDispatch } from "react-redux";
 import { resetCurrentProduct } from "redux/slice/currentProduct";
-import Header from "./header/haeder";
-import ProductsViewer from "./productsViewer/productsViewer";
 
-const App = () => {
+const MyStore = () => {
 	const dispatch = useDispatch();
 
 	useEffect(() => {
@@ -19,4 +20,4 @@ const App = () => {
 	)
 }
 
-export default App
+export default MyStore;
